@@ -1,0 +1,181 @@
+body {
+margin: 0px;
+overflow-x: hidden;
+box-sizing: border-box;
+}
+.profile {
+width: 600px;
+height: 600px;
+object-fit: contain;
+}
+.top-container {
+background-color: #fce993;
+position: relative;
+margin: 0;
+width: 100vw;
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+text-align: center;
+align-content: center;
+margin-top: 10vh;
+}
+.middle-container {
+background-color: #fffeb7;
+color: #6dd428;
+width: 100vw;
+padding: 80px 0px;
+position: relative;
+z-index: 10;
+overflow: hidden;
+}
+#navigationbar {
+position: fixed;
+width: 100%;
+z-index: 120;
+padding: 12px 0;
+background-color: rgba(0, 0, 0, 0.082);
+top: 0;
+}
+.name {
+font-size: 20px;
+color: rgb(0, 0, 0);
+padding: 0 40px;
+font-weight: 700;
+}
+#navigationbar .max-width {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#navigationbar .menu li {
+list-style: none;
+display: inline-block;
+}
+#navigationbar .menu li a {
+color: rgb(0, 0, 0);
+font-size: 15px;
+font-weight: 500;
+margin: 0 25px;
+transition: color 0.3s ease;
+}
+#percentage-container {
+position: fixed;
+top: 10vh;
+width: 100vw;
+color: #000;
+margin: 0;
+padding: 0;
+z-index: 100;
+}
+#percentage-container > .percentage {
+display: inline-block;
+background-color: #77d970;
+height: 6px;
+width: 0;
+}
+h2 {
+font-size: 30px;
+font-weight: 700;
+margin: 0;
+padding: 0px 0px 40px 0;
+}
+span {
+border-bottom: 1px solid;
+}
+h1 {
+margin: 0 auto;
+font-size: 3.5em;
+color: #66bfbf;
+line-height: 2;
+}
+.subtitle {
+font-weight: normal;
+color: #66bfbf;
+font-size: 20px;
+}
+.projects-container {
+background-color: #eeffa2;
+color: #5f8604;
+display: grid;
+align-items: center;
+padding: 100px 0;
+position: relative;
+overflow: hidden;
+z-index: 10;
+}
+.scroll-wrapper {
+width: 100vw;
+overflow-x: auto;
+overflow-y: hidden;
+}
+.projects {
+display: inline-flex;
+gap: 50px;
+padding: 0 6rem;
+}
+.project {
+border-radius: 15px;
+width: 450px;
+overflow: hidden;
+font-weight: 600;
+background-color: #f9f3f3;
+color: #3e2c41;
+border: 2px solid #3e2c41;
+}
+.project > img {
+height: 250px;
+object-fit: cover;
+}
+.project-content {
+line-height: 30px;
+padding: 10px 24px 20px;
+}
+.project-content > h3 {
+font-size: 22px;
+}
+.bottom-container {
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color: #e8ffe8;
+}
+p {
+font-size: 17px;
+}
+.cards::-webkit-scrollbar {
+display: none;
+}
+body::-webkit-scrollbar {
+display: none;
+}
+body {
+-ms-overflow-style: none; 
+scrollbar-width: none;
+}
+a {
+text-decoration: none;
+}
+.contactme {
+background-color: #9bdaf3;
+padding: 50px;
+color: #a5e3f7;
+text-align: center;
+}
+.contactmebutton {
+color: #138ff5;
+font-size: 20px;
+margin-top: 20px;
+font-weight: 700;
+text-decoration: underline;
+}
+.footer-link {
+color: #3e2c41;
+margin: 10px 10px;
+font-size: 15px;
+}
+#copyright {
+margin-top: 20px;
+font-weight: 200;
+}
